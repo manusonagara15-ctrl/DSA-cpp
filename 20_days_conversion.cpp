@@ -1,0 +1,24 @@
+// Take the total number of days from the user and convert them into years, weeks, and remaining days.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int totalDays, years, weeks, days;
+
+    cout << "Enter total number of days: ";
+    cin >> totalDays;
+
+    years = totalDays / 365;
+    totalDays = totalDays % 365;
+
+    weeks = totalDays / 7;
+    days = totalDays % 7;
+
+    cout << "Years = " << years << endl;
+    cout << "Weeks = " << weeks << endl;
+    cout << "Remaining Days = " << days << endl;
+
+    return 0;
+}
+

@@ -3,7 +3,7 @@
     #include<iostream>
     using namespace std;
 
-    int main(){
+    int main(){ 
 
         int num = 5432;
         int sum = 0;
